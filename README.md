@@ -65,6 +65,8 @@ All messages that DAR tanks server produces to RabbitMQ have type property set a
 Server errors
 For every request, DAR tanks server may respond with an Error. Errors consist of two fields: status (Integer) and message (String). status employs HTTP status codes (400, 500, 404 ,etc.), while message has a short description of the error. Error may arise when request body is not valid, when a client tries to register a room that already has maximum number of players, etc. Commonly encountered errors and their formats are listed below
 
+![27Снимок](https://user-images.githubusercontent.com/57716933/101049049-59f86f00-35ad-11eb-9cca-d4420ff6e6d1.PNG)
+
 
 
 
