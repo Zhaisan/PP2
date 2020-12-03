@@ -82,7 +82,7 @@ Room state body is represented in JSON format. Body of the event and it’s cont
 
 ![67Снимок](https://user-images.githubusercontent.com/57716933/101049975-371a8a80-35ae-11eb-8795-4d01f9ed2c70.PNG)
 
-
+![77Снимок](https://user-images.githubusercontent.com/57716933/101050172-63cea200-35ae-11eb-8f97-571e33552c6b.PNG)
 
 
 
