@@ -58,4 +58,9 @@ All messages that DAR tanks server produces to RabbitMQ have type property set a
 
 ![222Снимок](https://user-images.githubusercontent.com/57716933/101048135-98415e80-35ac-11eb-8b78-44cb01537250.PNG)
 
+![7Снимок](https://user-images.githubusercontent.com/57716933/101048495-de96bd80-35ac-11eb-8c12-dd8a6d6c83b9.PNG)
+
+
+
+
 
