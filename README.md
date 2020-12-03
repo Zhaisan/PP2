@@ -1,4 +1,5 @@
-19B030552.py DAR tanks
+![nameСнимок](https://user-images.githubusercontent.com/57716933/101050974-2880a300-35af-11eb-834f-b8174999e34b.PNG)
+
 
 
 ![3c0c935d-c623-47d7-9204-9be11bf6b9fe_photo-resizer ru](https://user-images.githubusercontent.com/57716933/101046635-654a9b00-35ab-11eb-98f1-7b70d9e7aab3.png)
