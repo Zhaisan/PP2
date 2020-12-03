@@ -40,3 +40,18 @@ kicked – a tank is kicked from the game if does not send any commands for 30 s
 RabbitMQ client-server architecture
 RabbitMQ in DAR tanks consists of one topic exchange called X:routing.topic. DAR tanks server has a server queue that binds to X:routing.topic via binding-keys of AMQP endpoints. In order to send a request to DAR tanks server, a client must produce a message to X:routing.topic with proper body and routing-key. It is strongly advised to review RPC tutorial to recall how client-server model is implemented in RabbitMQ. General design of client-server interaction in DAR tanks looks as follows:
 
+![22Снимок](https://user-images.githubusercontent.com/57716933/101047664-34b73100-35ac-11eb-820c-14d6385e532a.PNG)
+
+Requests
+Each request should have body (if required) and the following properties: routing-key, reply_to and correlation ID.
+
+routing-key is required for each request. routing-key is used to route the request message to server queue via X:routing.topic exchange
+
+some requests require request body. request body must be in JSON format
+
+client must add reply_to property to request (if it wants to receive response from DAR tanks server). DAR tanks server puts reply_to as routing_key of response
+
+client may add optional correlation ID property in order to correlate responses on client side. DAR tanks does not alter correlation ID received from client and puts it into response
+
+Server messages
+All messages that DAR tanks server produces to RabbitMQ have type property set according to table below
