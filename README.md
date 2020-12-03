@@ -67,6 +67,13 @@ For every request, DAR tanks server may respond with an Error. Errors consist of
 
 ![27Снимок](https://user-images.githubusercontent.com/57716933/101049049-59f86f00-35ad-11eb-9cca-d4420ff6e6d1.PNG)
 
+![37Снимок](https://user-images.githubusercontent.com/57716933/101049192-7f857880-35ad-11eb-96e6-3b1b00c6b632.PNG)
+
+Server events
+In order to allow clients to visualize the state of the room, DAR tanks server emits state of room every 100 milliseconds. Room state is emitted as event and DAR tanks server does not expect any replies to emitted event. Event body is in JSON format. Clients should subscribe to game state events according to roomId. 
+
+
+
 
 
 
