@@ -74,6 +74,9 @@ In order to allow clients to visualize the state of the room, DAR tanks server e
 
 ![47Снимок](https://user-images.githubusercontent.com/57716933/101049471-c1aeba00-35ad-11eb-9951-82b84d355f64.PNG)
 
+Room state body:
+
+Room state body is represented in JSON format. Body of the event and it’s content is described in the tables below
 
 
 
