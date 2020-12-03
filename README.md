@@ -55,3 +55,7 @@ client may add optional correlation ID property in order to correlate responses 
 
 Server messages
 All messages that DAR tanks server produces to RabbitMQ have type property set according to table below
+
+![222Снимок](https://user-images.githubusercontent.com/57716933/101048135-98415e80-35ac-11eb-8b78-44cb01537250.PNG)
+
+
