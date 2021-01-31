@@ -1,0 +1,16 @@
+n=int(input())
+A=input().split()
+a=set(A)
+m=int(input())
+B=input().split()
+b=set(B)
+print("Missed students: ")
+x=set(A)-set(B)
+e=list(x)
+for i in range(len(e)):
+    print("- ", e[i])
+print("Not in the group: ")
+y=set(B)-set(A)
+q=list(y)
+for i in range(len(q)):
+    print("- ", q[i])
