@@ -1,0 +1,118 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 818049766,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "id": 478376002,
+          "is_bot": false,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 478376002,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "type": "private"
+        },
+        "date": 1593015673,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 818049767,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 478376002,
+          "is_bot": false,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 478376002,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "type": "private"
+        },
+        "date": 1593015943,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 818049768,
+      "message": {
+        "message_id": 4,
+        "from": {
+          "id": 478376002,
+          "is_bot": false,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 478376002,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "type": "private"
+        },
+        "date": 1593015956,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 818049769,
+      "message": {
+        "message_id": 6,
+        "from": {
+          "id": 478376002,
+          "is_bot": false,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 478376002,
+          "first_name": "Zhaisan",
+          "last_name": "Zharasuly",
+          "username": "Zhaiss",
+          "type": "private"
+        },
+        "date": 1593018048,
+        "text": "привет"
+      }
+    }
+  ]
+}
