@@ -1,0 +1,12 @@
+import random
+S = 1946 + 1782 + 1372 + 1511 + 1638 + 1860
+random.seed(S)
+eligible = [' Come to KBTU Open (Amanov, Nurmash, Temir)', ' Askhat Zhalgasov and his team (Tursynbay, Kurbanbayev, Zhalgasov)', 'Bikini Bottom (Khibadullin, Absatov, Safargaliyev)', 'NU reject (Muratov, Altynbekov, Botakanov) ','Orda societ (Mukimbekov, Turganov, Genze) ',
+'Optimus Prime (Bidaibek, Orazalin, Keh)', 'TVT (Korganbayev, Li, Kim) ','MAD! (Mussayev, Almakhan, Duisenbayev)','ISN (Asmatullayev, Khamiyev, Ilyas)','IITU ACGT (Khynovskiy, Kamzabek, Shormankhan) ','Мы из компании Орифлейм (Ashurov, Sahmoldin, Sadybekov)','ZeroTwoHiro (Zhusupov, Amanov, Aman)',
+'We love Krauch (Kanatuly, Shinbay, Maksotov)', 'Turtles (Kydyraliev, Derkenbaev, Zhusubaliev) ','Zhanbo Wanted (Rakhmatullin, Aluadin) ','We love MNaaZT (Abilkhanov, Bauyrzhanuly, Turysbek) ','Alih spit (Kozhakhmetov, Okas, Dairov)','Little Fires Everywhere (Sultanov, Maskeugaliev, Zhambyl','Три мешка (Солдатбай, Чесноков, Абдысалам) ',
+'Zhanrocky (Kaisar, Aimagambetov, Kussainov) ','CookOldForces (Koptleuov, Seit, Mussagali)','MCube (Medvedev, Mukhamejanov, Mazylo) ','Satti (Zeineken, Gallam, Yerkimbekov) ','Kod kushteri (Oralkhanov, Mukhametkarim, Perdebai)','Чисто Ради Разминки (Kanaliyev, Abilgaziyev, Omirbekov)','How do I tell mom that I did not pass to Google (Sagynov, Dairabay, Khassen)',
+'Xata18 (Seitov, Urazbayev, Galiyev) ','HZ (Khaireden, Khismet, Tilekbay)','Kek lms (Manashov, Jankurazov, Sultanov)','Sons Of Kojima (Присяжнюк, Попов, Кан)','in memory of Zhumash Zhandos (Bazarbekov, Bogenbayev, Iskakbay) ','KARAMA (Asmatullayev, Baktur, Sembekov)','Logos (Muzhikov, Mahmedjan)',
+'Jinsei wa Belt Conveyor no Youni Nagareru (Zhakuda, Zhumagazy) ','удАлёнка (Rakhimberdi, Yesmukhanov, Srazhov) ','Aitu (Mazhiken, Abdykalykov, Alimkhan) ','Compilation error on test 7 (Nuriyev, Dzhumadildayev, Altay)','domadoma (Rakhimbayev, Sharau, Kemelhan)','Так джай кайфануть (Oral, Bolatbekov, Suleimen)',
+'Winter Will Be Long (Sulaimanov, Erkulov, Bakirov)','Үш қайың (Аширбек, Мусабек, Жарылгамысов) ','SDU1 (Zharkyn, Aitkulov, Kursakpaev)','ТимаБелорусских (Saparbek, Kozhakhmet, Ospanova) ','halalcoders (Yessenaman, Ozhetov, Khojabekov) ','impulse (Rakhmetulla, Ponomarev)','Maddening bug (Даутбек, Капитов, Калыкул)']
+print(random.choice(eligible))
+print(len(eligible))
