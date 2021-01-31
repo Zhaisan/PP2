@@ -1,0 +1,9 @@
+q1 = int(input())
+q2 = int(input())
+q3 = int(input())
+x1 = int(input())
+x2 = int(input())
+x3 = int(input())
+a = q1*3600+q2*60+q3
+b = x1*3600+x2*60+x3
+print(b - a)
